@@ -1,0 +1,57 @@
+name: tomoto
+description: A new Flutter project.
+
+
+
+publish_to: 'none' 
+
+
+
+
+
+
+
+
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  
+  cupertino_icons: ^0.1.3
+  timer_count_down: ^1.0.4+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+
+flutter:
+  fonts:
+    - family: numberphile
+      fonts:
+        - asset: assets/fonts/numberpile.ttf
+    - family: DigitalDisplayRegular
+      fonts:
+        - asset: assets/fonts/DigitalDisplayRegular-ODEO.ttf
+    - family: Combinumerals
+      fonts:
+         - asset: assets/fonts/Combinumerals-OGR4.ttf
+
+  
+  
+  
+  uses-material-design: true
+
